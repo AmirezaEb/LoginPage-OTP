@@ -1,0 +1,208 @@
+@media screen and (max-width: 992px) {
+    .inner-container {
+        width: 50%;
+    }
+    .sign-in-title, .register-title, .verify-title {
+        font-size: 2.2vw;
+    }
+
+    .sign-in__name-input,
+    .sign-in__phone-input,
+    .register__name-input,
+    .register__email-input,
+    .register__phone-input,
+    .verify-input {
+        font-size: 1.8vw;
+    }
+
+    .sign-in__name-input-container label,
+    .sign-in__phone-input-container label,
+    .register__name-input-container label,
+    .register__email-input-container label,
+    .register__phone-input-container label,
+    .verify-input-container label {
+        font-size: 1.8vw;
+    }
+
+    .sign-in__name-input:focus+label,
+    .sign-in__phone-input:focus+label,
+    .register__name-input:focus+label,
+    .register__email-input:focus+label,
+    .register__phone-input:focus+label,
+    .verify-input:focus+label,
+    .label-top {
+        font-size: 1.5vw!important;
+    }
+
+    .sign-in__name-input-valid-feedback,
+    .sign-in__phone-input-valid-feedback,
+    .register__name-input-valid-feedback,
+    .register__email-input-valid-feedback,
+    .register__phone-input-valid-feedback,
+    .verify-input-valid-feedback {
+        font-size: 1.4vw;
+    }
+
+    .remember-input-label,
+    .verify-btn {
+        font-size: 1.5vw;
+    }
+
+    .btn {
+        font-size: 1.8vw !important;
+    }
+
+    .register, .sign.in {
+        font-size: 1.5vw;
+    }
+
+    .register__btn {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inner-container {
+        width: 65%;
+    }
+
+    .sign-in-title, .register-title, .verify-title {
+        font-size: 2.2vw;
+    }
+
+    .sign-in__name-input,
+    .sign-in__phone-input,
+    .register__name-input,
+    .register__email-input,
+    .register__phone-input,
+    .verify-input {
+        font-size: 2vw;
+    }
+
+    .sign-in__name-input-container label,
+    .sign-in__phone-input-container label,
+    .register__name-input-container label,
+    .register__email-input-container label,
+    .register__phone-input-container label,
+    .verify-input-container label {
+        font-size: 2vw;
+    }
+
+    .sign-in__name-input:focus+label,
+    .sign-in__phone-input:focus+label,
+    .register__name-input:focus+label,
+    .register__email-input:focus+label,
+    .register__phone-input:focus+label,
+    .verify-input:focus+label,
+    .label-top {
+        font-size: 1.6vw!important;
+    }
+
+    .sign-in__name-input-valid-feedback,
+    .sign-in__phone-input-valid-feedback,
+    .register__name-input-valid-feedback,
+    .register__email-input-valid-feedback,
+    .register__phone-input-valid-feedback,
+    .verify-input-valid-feedback {
+        font-size: 1.6vw;
+    }
+
+    .remember-input-label,
+    .verify-btn {
+        font-size: 1.8vw;
+    }
+
+    .btn {
+        font-size: 2vw !important;
+    }
+
+    .register, .sign-in {
+        font-size: 1.8vw;
+    }
+
+    .register__btn {
+        font-size: 2vw;
+    }
+}
+
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
+
+@media screen and (max-width: 576px) {
+    .inner-container {
+        width: 90%;
+    }
+
+    .sign-in-title, .register-title, .verify-title {
+        font-size: 5vw;
+    }
+
+    .sign-in__name-input,
+    .sign-in__phone-input,
+    .register__name-input,
+    .register__email-input,
+    .register__phone-input,
+    .verify-input {
+        font-size: 3.2vw;
+    }
+
+    .sign-in__name-input-container label,
+    .sign-in__phone-input-container label,
+    .register__name-input-container label,
+    .register__email-input-container label,
+    .register__phone-input-container label,
+    .verify-input-container label {
+        font-size: 3.2vw;
+        top: calc(50% - .7rem);
+    }
+
+    .sign-in__name-input:focus+label,
+    .sign-in__phone-input:focus+label,
+    .register__name-input:focus+label,
+    .register__email-input:focus+label,
+    .register__phone-input:focus+label,
+    .verify-input:focus+label,
+    .label-top {
+        font-size: 3vw!important;
+        transform: translateY(-2.4rem);
+    }
+
+    .sign-in__name-input-valid-feedback,
+    .sign-in__phone-input-valid-feedback,
+    .register__name-input-valid-feedback,
+    .register__email-input-valid-feedback,
+    .register__phone-input-valid-feedback,
+    .verify-input-valid-feedback {
+        font-size: 3vw;
+        top: calc(50% - .7rem);
+    }
+
+    .remember-input-label,
+    .verify-btn {
+        font-size: 2.8vw;
+    }
+
+    .btn {
+        font-size: 3vw !important;
+    }
+
+    .register, .sign-in {
+        font-size: 2.8vw;
+    }
+
+    .register__btn {
+        font-size: 3vw;
+    }
+
+    .succes-title {
+        font-size: 3vw;
+    }
+    .registion-date {
+        font-size: 3vw;
+    }
+    .userEmail {
+        font-size: 3vw;
+    }
+}

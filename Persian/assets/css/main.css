@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazirmatn, sans-serif;
+}
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/mountain-bg.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.inner-container {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(8px);
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 4px #fff;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    padding: 4rem;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px 4px #fff;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.sign-in-form,
+.register-form,
+.verify-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.sign-in-title,
+.register-title,
+.verify-title {
+    font-size: 2vw;
+    color: #fff;
+    padding: 1rem;
+}
+
+.sign-in__name-input-container,
+.sign-in__phone-input-container,
+.register__name-input-container,
+.register__email-input-container,
+.register__phone-input-container,
+.verify-input-container {
+    position: relative;
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+.sign-in__name-input,
+.sign-in__phone-input,
+.register__name-input,
+.register__email-input,
+.register__phone-input,
+.verify-input {
+    position: relative;
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: .75rem .75rem .75rem 1.2rem;
+    margin: 1rem 0;
+    width: 100%;
+    border-radius: 2rem;
+    z-index: 6;
+    font-size: 1.3vw;
+    color: #fff;
+    direction: ltr;
+}
+
+.pl-2-input {
+    padding-left: 2.2rem!important;
+}
+
+.outline-1 {
+    outline: 1px solid #fff;
+}
+
+.sign-in__name-input-container label,
+.sign-in__phone-input-container label,
+.register__name-input-container label,
+.register__email-input-container label,
+.register__phone-input-container label,
+.verify-input-container label {
+    position: absolute;
+    right: 2.5rem;
+    top: calc(50% - .8rem);
+    z-index: 5;
+    color: #ffffff;
+    transition: all 200ms ease-in-out;
+}
+
+.sign-in__name-input:focus+label,
+.sign-in__phone-input:focus+label,
+.register__name-input:focus+label,
+.register__email-input:focus+label,
+.register__phone-input:focus+label,
+.verify-input:focus+label {
+    font-size: .9rem;
+    transform: translateY(-2.7rem);
+    z-index: 8;
+    padding: 0 .3rem;
+    pointer-events: none;
+}
+
+.sign-in__other-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 1.2rem;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remember-input-label,
+.verify-btn {
+    color: #fff;
+    font-size: .9vw;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+.remember-input-label {
+    padding-left: .5rem;
+}
+
+.btn {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .4rem 2.5rem;
+    background-color: inherit;
+    border-radius: .7rem;
+}
+
+.sign-in__submit-btn,
+.register__submit-btn,
+.verify__submit-btn {
+    background-color: #ffffff4d;
+    color: #ffffff;
+    padding: 0.75rem 3rem;
+    font-size: 1vw;
+    margin: calc(0.75rem + 1px) 0;
+    border-radius: 2rem;
+    width: calc(100% - 3rem);
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid #fff;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.logOutBtn:hover,
+.sign-in__submit-btn:hover,
+.register__submit-btn:hover,
+.verify__submit-btn:hover {
+    border: 1px solid;
+    /* margin: 0.75rem 0!important; */
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+    cursor: pointer;
+}
+
+.logOutBtn {
+    background-color: #ffffff4d;
+    color: #ffffff;
+    padding: 0.75rem 3rem;
+    font-size: 1vw;
+    margin: calc(0.75rem + 1px) 0;
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid #fff;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.register,
+.sign-in {
+    color: #fff;
+    padding: .5rem;
+    font-weight: 400;
+}
+
+.register__btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1vw;
+    margin-left: .4rem;
+    transition: all 200ms ease-in-out;
+}
+
+.sign-in__name-input-valid-feedback,
+.sign-in__phone-input-valid-feedback,
+.register__name-input-valid-feedback,
+.register__email-input-valid-feedback,
+.register__phone-input-valid-feedback,
+.verify-input-valid-feedback {
+    position: absolute;
+    top: calc(50% - .8rem);
+    right: 2.8rem;
+    font-size: 1vw;
+    margin-bottom: 1rem;
+}
+
+.valid-feedback-icon {
+    color: green;
+    font-size: 1rem;
+    position: absolute;
+    top: calc(50% - .5rem);
+    left: 2.5rem;
+    display: none;
+}
+
+.invalid-feedback-icon {
+    color: #c80000;
+    font-size: 1rem;
+    position: absolute;
+    top: calc(50% - .5rem);
+    left: 2.5rem;
+    display: none;
+}
+
+.valid-feedback {
+    border: solid green !important;
+}
+
+.invalid-feedback {
+    border: solid #c80000 !important;
+}
+
+.label-top {
+    font-size: .9rem;
+    transform: translateY(-2.7rem);
+    z-index: 15 !important;
+    padding: 0 .3rem;
+}
+
+.succes-title {
+    font-size: 2rem;
+    color: rgb(59, 126, 59);
+    margin-bottom: 1.7rem;
+}
+
+.registion-date, .userEmail {
+    font-size: 1.4rem;
+    color: #fff;
+}
+.registion-date {
+    margin-bottom: .8rem;
+}
+.userEmail {
+    margin-bottom: 1rem;
+}
+
+.d-none {
+    display: flex !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-inline {
+    display: inline !important;
+}
