@@ -4,6 +4,12 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
+
+
 # Get Url Site Address
 function siteUrl(string $uri = ''): string
 {
@@ -86,6 +92,11 @@ function findPhone(string $phone): bool
     return $result ? true : false;
 }
 
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
+
 # Create New User In DataBase
 function createUser(array $data): bool
 {
@@ -157,6 +168,11 @@ function alarm(string $mode, string $message, string $size): string
     </script>";
     return $alarm;
 }
+
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
 
 # Send New Disposable Code For User By Email
 function sendOtpByEmail($sendToo, $otpCode)
@@ -283,4 +299,8 @@ function sendOtpByEmail($sendToo, $otpCode)
     $mail->send();
 }
 
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
 ?>

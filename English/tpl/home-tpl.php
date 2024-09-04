@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="<?= assets('css/main.css') ?>">
     <link rel="stylesheet" href="<?= assets('css/responsive.css') ?>">
 </head>
-
+<!--
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+-->
 <body>
     <div class="container">
         <div class="home-container">
@@ -35,4 +38,8 @@ if (isset($_SESSION['message']) && !empty($_SESSION['message'])) {
     echo alarm('success', $_SESSION['message'], '24em');
     unset($_SESSION['message']);
 }
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
 ?>

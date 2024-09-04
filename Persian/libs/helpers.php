@@ -4,6 +4,11 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
+
 # دریافت ادرس سایت
 function siteUrl(string $uri = ''): string
 {
@@ -120,6 +125,11 @@ function updateOtpUser(string $code, string $expired, string $email): bool
     $stmt->execute([':otpCode' => $code, ':otpExpired' => date("Y-m-d H:i:s", $expired), ':email' => $email]);
     return $stmt->rowCount() ? true : false;
 }
+
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
 
 # احراز هویت کاربر
 function userAuthentication(string $token, string $email): bool
@@ -283,5 +293,10 @@ function sendOtpByEmail($sendToo, $otpCode)
     $mail->AltBody = "";
     $mail->send();
 }
+
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
 
 ?>

@@ -13,6 +13,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.11.0/sweetalert2.all.js"></script>
 </head>
 
+<!--
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+-->
+
 <body>
     <div class="container">
         <div class="inner-container">
@@ -46,4 +51,9 @@ if (isset($_SESSION['error']) && !empty($_SESSION['error'])) {
     echo alarm('success', $_SESSION['message'], '24em');
     unset($_SESSION['message']);
 }
+
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
 ?>

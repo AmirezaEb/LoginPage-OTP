@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="<?= assets('css/responsive.css') ?>">
 </head>
 
+<!-- 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+-->
+
 <body>
     <div class="container">
         <div class="home-container">
@@ -36,4 +41,10 @@ if (isset($_SESSION['message']) && !empty($_SESSION['message'])) {
     echo alarm('success', $_SESSION['message'], '24em');
     unset($_SESSION['message']);
 }
+
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
+
 ?>

@@ -2,6 +2,11 @@
 
 require "config/init.php";
 
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     # All Register Page Actions
     if (isset($_POST['signUp'])) {
@@ -84,3 +89,9 @@ if (isset($_GET['action']) && $_GET['action'] == 'register') {
 } else {
     includeTpl('tpl/login-tpl.php');
 }
+
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
+?>

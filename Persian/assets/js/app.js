@@ -60,8 +60,8 @@ function signInphoneCheckInputFalse() {
     $.querySelector('.sign-in__phone-input-container .valid-feedback-icon').classList.remove('d-block')
 }
 /* 
-** Developed by Hero Expert 
-** Telegram channel : @HeroExpert_ir 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
 */
 function signInphoneCheckInputTrue() {
     $.querySelector('.sign-in__phone-input-container .invalid-feedback-icon').classList.remove('d-block')
@@ -266,8 +266,8 @@ if (signUpSubmitBtn) {
     })
 }
 /* 
-** Developed by Hero Expert 
-** Telegram channel : @HeroExpert_ir 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
 */
 if (verifySubmitBtn) {
     verifySubmitBtn.addEventListener('click', event => {
@@ -350,8 +350,8 @@ if (signInphoneInput) {
     })
 }
 /* 
-** Developed by Hero Expert 
-** Telegram channel : @HeroExpert_ir 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
 */
 if (signUpnameInput) {
     signUpnameInput.addEventListener('focus', event => {
@@ -448,7 +448,10 @@ if (verifyEmailInput) {
     })
 }
 
-
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
 /* 
 ** Developed by Hero Expert 
 ** Telegram channel : @HeroExpert_ir 

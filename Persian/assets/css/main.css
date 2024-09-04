@@ -5,8 +5,8 @@
     font-family: Vazirmatn, sans-serif;
 }
 /* 
-** Developed by Hero Expert 
-** Telegram channel : @HeroExpert_ir 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
 */
 .container {
     height: 100vh;
@@ -104,6 +104,11 @@
     outline: 1px solid #fff;
 }
 
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
+
 .sign-in__name-input-container label,
 .sign-in__phone-input-container label,
 .register__name-input-container label,
@@ -156,6 +161,11 @@
 .remember-input-label {
     padding-left: .5rem;
 }
+
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
 
 .btn {
     color: #fff;
@@ -308,3 +318,8 @@
 .d-inline {
     display: inline !important;
 }
+
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/

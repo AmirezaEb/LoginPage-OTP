@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="<?= assets('css/responsive.css') ?>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.11.0/sweetalert2.all.js"></script>
 </head>
-
+<!-- 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+-->
 <body>
     <div class="container">
         <div class="inner-container">
@@ -65,4 +68,8 @@ if (isset($_SESSION['error']) && !empty($_SESSION['error'])) {
     echo alarm('success', $_SESSION['message'], '24em');
     unset($_SESSION['message']);
 }
+/* 
+** Developed by Hero Expert 
+** Telegram channel : @HeroExpert_ir 
+*/
 ?>

@@ -1,7 +1,10 @@
 <?php
 
 require "config/init.php";
-
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     # تمامی اقدامات صفحه ثبت نام کاربر
     if (isset($_POST['signUp'])) {
@@ -85,4 +88,8 @@ if (isset($_GET['action']) && $_GET['action'] == 'register') {
     includeTpl('tpl/login-tpl.php');
 }
 
+/* 
+-* توسعه داده شده توسط تیم کارشناس قهرمان
+-* @HeroExpert_ir : کانال تلگرام
+*/
 ?>
