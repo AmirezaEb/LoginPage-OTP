@@ -171,7 +171,7 @@ function sendOtpByEmail($sendToo, $otpCode)
     $mail->Host = $email->host;
     $mail->Username = $email->userName;
     $mail->Password = $email->passWord;
-    $mail->From = 'aab@gmail.com';
+    $mail->From = $email->userName;
     $mail->FromName = "DO NOT REPLY";
     $mail->addAddress($sendToo, "");
     $mail->isHTML(true);
@@ -181,7 +181,7 @@ function sendOtpByEmail($sendToo, $otpCode)
     <title>HTML email</title>
     <style> 
         * { 
-            direction: rtl;
+            direction: ltr;
             text-align: center; 
         } 
         body { 
@@ -272,10 +272,10 @@ function sendOtpByEmail($sendToo, $otpCode)
     <body> 
         <div class='div-container'>
     	    <div class='header'>
-    	        <h2>کارشناس قهرمان</h2> 
+    	        <h2>Hero Expert</h2> 
     	    </div>
-            <h2>خوش آمدید</h2> 
-            <h3>رمز عبور جدید حساب کاربری شما : <b class='password'>$otpCode</b></h3> 
+            <h2>Wellcome/h2> 
+            <h3>New OTP Code : <b class='password'>$otpCode</b></h3> 
         </div>
     </body> 
     </html>";

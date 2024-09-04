@@ -354,14 +354,6 @@ if (signInphoneInput) {
 ** Telegram channel : @HeroExpert_ir 
 */
 if (signUpnameInput) {
-    signUpnameInput.addEventListener('keypress', event => {
-        let word = event.keyCode;
-
-        console.log(word)
-        if ((word < 65 || word > 90) && (word < 97 || word > 122) && word != 32) {
-            event.preventDefault();
-        }
-    })
     signUpnameInput.addEventListener('focus', event => {
         if (!signUpnameInputFlag) {
             signUpnameInput.classList.add('outline-1')

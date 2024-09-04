@@ -90,6 +90,7 @@
     width: 100%;
     border-radius: 2rem;
     z-index: 6;
+    text-align: center;
     font-size: 1.3vw;
     color: #fff;
     direction: ltr;

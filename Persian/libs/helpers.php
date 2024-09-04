@@ -172,7 +172,7 @@ function sendOtpByEmail($sendToo, $otpCode)
     $mail->Host = $email->host;
     $mail->Username = $email->userName;
     $mail->Password = $email->passWord;
-    $mail->From = 'aab@gmail.com';
+    $mail->From = $email->userName;
     $mail->FromName = "DO NOT REPLY";
     $mail->addAddress($sendToo, "");
     $mail->isHTML(true);

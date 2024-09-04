@@ -2,16 +2,16 @@
 
 #---# پیکربندی ثابت ها#---#
 
-const BASE_URL = 'http://localhost/LoginPage-OTP/English/'; # محل قرار گیری فایل
+const BASE_URL = 'http://localhost/LoginPage-OTP/Persian/'; # محل قرار گیری فایل
 const BASE_PATH = __DIR__ . '/../';
 
 #---# پیکربندی ایمیل #---#
 
 $email = (object)[
     'host' => 'HeroExpert.ir', # هاست ایمیل
-    'userName' => 'info@heroexpert.ir', # نام کاربری ایمیل
-    'passWord' => '56e80a730b9eae', # رمزعبور ایمیل
-    'port' => '507', # پورت ایمیل
+    'userName' => 'info@HeroExpert.ir', # نام کاربری ایمیل
+    'passWord' => '863cd11d522407', # رمزعبور ایمیل
+    'port' => '2525', # پورت ایمیل
     'secure' => 'SSL' # پروتکل امنیتی ایمیل
 ];
 
